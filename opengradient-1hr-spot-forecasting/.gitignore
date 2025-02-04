@@ -19,3 +19,4 @@ result.json
 *.pth
 *.onnx
 !eth_forecast_1day_model.onnx
+/__pycache__
