@@ -1,0 +1,21 @@
+# Ray Tune outputs
+scripts/outputs/
+
+# Ray Tune results
+ray_results/
+*/ray_results/
+**/ray_results/
+
+# Ray checkpoints and logs
+*.tune_metadata
+*.is_checkpoint
+*.log
+checkpoint_*
+progress.csv
+params.json
+result.json
+
+# Model files
+*.pth
+*.onnx
+!eth_forecast_1day_model.onnx
